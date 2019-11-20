@@ -1,4 +1,4 @@
-package communityuni.com.io;
+package khanhvu.com.io;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -6,7 +6,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-import communityuni.com.model.KhachHang;
+import khanhvu.com.model.KhachHang;
 
 public class SerializeFileFactory {
 	//Lưu File từ RAM về Ổ Cứng

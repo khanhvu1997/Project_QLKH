@@ -1,11 +1,11 @@
-package communityuni.com.test;
+package khanhvu.com.test;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-import communityuni.com.io.SerializeFileFactory;
-import communityuni.com.model.KhachHang;
+import khanhvu.com.io.SerializeFileFactory;
+import khanhvu.com.model.KhachHang;
 
 public class testKhachHang {
 	static ArrayList<KhachHang> dsKH = new ArrayList<KhachHang>();
@@ -105,7 +105,7 @@ public class testKhachHang {
 	}
 
 	private static void docFile() {
-		dsKH = SerializeFileFactory.docFile("E:/Tu/dataKH.db");
+		dsKH = SerializeFileFactory.docFile("E:/Khánh Vũ/dataKH.db");
 		if (dsKH.size() != 0) {
 			System.out.println("Đã đọc file thành công!");
 		} else {
@@ -115,7 +115,7 @@ public class testKhachHang {
 	}
 
 	private static void luuFile() {
-		boolean kq = SerializeFileFactory.luuFile(dsKH, "E:/Tu/dataKH.db");
+		boolean kq = SerializeFileFactory.luuFile(dsKH, "E:/Khánh Vũ/dataKH.db");
 		if (kq == true) {
 			System.out.println("Lưu File thành công!");
 		} else {

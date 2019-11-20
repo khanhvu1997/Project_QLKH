@@ -1,4 +1,4 @@
-package communityuni.com.model;
+package khanhvu.com.model;
 
 import java.io.Serializable;
 
